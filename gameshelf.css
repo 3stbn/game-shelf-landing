@@ -7,7 +7,7 @@ body {
   background: #efefef;
 }
 .bg1 {
-  background-image: url("playbackground.jpg");
+  background-image: url("./assets/playbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -113,7 +113,7 @@ h2 {
   text-align: center;
 }
 .section6 {
-  background: url("background2footer.jpg");
+  background: url("./assets/background2footer.jpg");
   background-size: cover;
   background-color: rgba(40, 35, 35, 0.44);
   background-blend-mode: multiply;
