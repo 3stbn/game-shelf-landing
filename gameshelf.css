@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Helvetica;
+  background: #efefef;
+}
+.bg1 {
+  background-image: url("playbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.menu {
+  height: inherit;
+  width: 100%;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+  justify-content: flex-end;
+}
+.header ol li {
+  height: inherit;
+}
+.menu-link {
+  color: white;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.CenterContainer {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.CenterContainer figure {
+  margin: 0 50px;
+}
+h1 {
+  font-size: 70px;
+}
+p {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.seemorecontainer {
+  text-align: center;
+}
+.section2 {
+  text-align: center;
+  margin-top: 130px;
+}
+.featureFullContainer {
+  background: #efefef;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature1,
+.feature2,
+.feature3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #6d5af9;
+  color: white;
+  height: 500px;
+}
+.feature2 {
+  background: #2e306b;
+}
+.feature3 {
+  background: #0275cb;
+}
+.howitworks {
+  display: flex;
+  flex-direction: column;
+  background: #dddddd;
+  align-items: center;
+  padding: 120px 0px;
+  width: 100%;
+}
+.titlecontainer {
+  width: 70%;
+  border-bottom: 2px solid #777474;
+  margin-bottom: 80px;
+}
+h2 {
+  color: #777474;
+  font-size: 40px;
+  padding: 30px 0px;
+  text-align: center;
+}
+.section6 {
+  background: url("background2footer.jpg");
+  background-size: cover;
+  background-color: rgba(40, 35, 35, 0.44);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 160px 0px 50px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.finallogocontainer {
+  padding: 100px 0px 100px 0px;
+}
+.finallogocontainer h2 {
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  height: 50px;
+  border-top: 2px solid white;
+  width: 80%;
+}
+.footer-menu {
+  height: inherit;
+}
+.footer ol {
+  display: flex;
+  height: inherit;
+}
+.footer ol li {
+  height: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+  .feature1,
+  .feature2,
+  .feature3 {
+    padding: 0px 100px;
+  }
+  .featureDetails {
+    max-width: 40%;
+  }
+  .featuresimageContainer {
+    width: 60%;
+  }
+  .featuresimageContainer img {
+    max-width: 100%;
+  }
+  .hiwContainer img {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .CenterContainer img {
+    width: 12rem;
+  }
+  .seemorecontainer img {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .imagegm {
+    display: none;
+  }
+  .googleplaybuttom {
+    align-self: center;
+  }
+  .titleAppContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .titlecontainer {
+    margin-bottom: 40px;
+  }
+  .section2 {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.1em;
+    margin: 0px 15px;
+  }
+  .section6 {
+    padding-top: 20px;
+  }
+  .finallogocontainer {
+    padding: 0px;
+  }
+  .howitworks {
+    padding: 30px 0px;
+  }
+  .howitworks h2 {
+    font-size: 1.2em;
+  }
+  .menu-link {
+    font-size: 0.63em;
+    margin: 0px 5px;
+    padding: 0px;
+  }
+  .featureFullContainer {
+    background: #efefef;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .feature1,
+  .feature2,
+  .feature3 {
+    height: inherit;
+    padding: 0px 10px;
+    margin: 30px 0px;
+  }
+  .featureDetails {
+    max-width: 80%;
+  }
+  .featuresimageContainer {
+    width: 100%;
+  }
+  .footer {
+    margin-top: 30px;
+    height: 2em;
+  }
+  .header ol {
+    justify-content: center;
+  }
+}
