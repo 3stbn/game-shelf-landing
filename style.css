@@ -244,8 +244,84 @@ h2 {
     width: 100%;
   }
   .footer {
+    justify-content: center;
     margin-top: 30px;
     height: 2em;
+  }
+  .header ol {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .imagegm {
+    display: none;
+  }
+  .googleplaybuttom {
+    align-self: center;
+  }
+  .titleAppContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 100px;
+  }
+  .mainimage {
+  }
+  .titlecontainer {
+    margin-bottom: 45px;
+  }
+  .section2 {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.3em;
+    margin: 0px 20px;
+  }
+  .section6 {
+    padding-top: 20px;
+  }
+  .finallogocontainer {
+    padding: 0px;
+  }
+  .howitworks {
+    padding: 30px 0px;
+  }
+  .howitworks h2 {
+    font-size: 1em;
+  }
+  .menu-link {
+    font-size: 0.9em;
+    margin: 0px 5px;
+    padding: 0 12px;
+  }
+  .featureFullContainer {
+    background: #efefef;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .feature1,
+  .feature2,
+  .feature3 {
+    height: inherit;
+    padding: 0px 10px;
+    margin: 50px 0px;
+  }
+  .featureDetails {
+    max-width: 100%;
+  }
+  .featuresimageContainer {
+    width: 70%;
+  }
+  .footer {
+    justify-content: center;
+    margin-top: 25px;
+    height: 2.5em;
   }
   .header ol {
     justify-content: center;
